@@ -32,7 +32,7 @@
                 <a-select
                     ref="select"
                     v-model:value="weatherSelectValue"
-                    class="weather_select_input marr_3"
+                    class="weather_select_input marr_2"
                 >
                     <a-select-option 
                         v-for="item in weatherSelectOption" 
@@ -45,7 +45,7 @@
                 </a-select>
                 <Icon url="/images/icon/setting.svg" :width="26" class="marr_2 marl_2 " />
                 <Icon url="/images/icon/notifications.svg" :width="26" class="marr_2 marl_2" />
-                <img src="/images/person.png" class="marr_1 marl_2" alt="">
+                <img src="/images/person.png" class="marr_2 marl_2" alt="">
                 <Icon url="/images/icon/dropdown.svg" :width="8"/>
             </div>
         </div>
