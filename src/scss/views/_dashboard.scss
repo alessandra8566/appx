@@ -1,0 +1,87 @@
+.dashboard {
+    background-color: $color-gray-3;
+    .search_bar {
+        padding: 20px;
+        background-color: $color-white;
+        p {
+            margin-bottom: 5px;
+        }
+        .select_input {
+            margin-right: 8px;
+            .ant-select-selector {
+                height: 48px;
+                width: 222px;
+                border-radius: 8px;
+                border: 1px solid $color-light-gray;
+                .ant-select-selection-item {
+                    line-height: 48px;
+                }
+            }
+        }
+    
+        .search_input {
+            width: 245px;
+            height: 48px;
+            margin-right: 8px;
+            &.ant-input.ant-input-lg {
+                line-height: 2.05;
+                border-radius: 8px;
+                border: 1px solid $color-light-gray;
+            }
+        }
+    
+        .search_btn {
+            width: 96px;
+            height: 48px;
+            background-color: $color-light-gray;
+            color: $color-light-drak;
+            border: none;
+            border-radius: 8px;
+        }
+    }
+
+    .appx_list {
+        padding: 15px 0;
+        .appx_list_header {
+            padding: 15px 0;
+            line-height: 24px;
+            font-size: 16px;
+            .pagination {
+                color: #737791;
+            }
+
+            .page_select {
+                .ant-select-selector {
+                    height: 32px;
+                    border-radius: 5.3px;
+                    border: .77px solid $color-light-gray;
+                }
+            }
+        }
+        .ant-list-item-meta-avatar {
+            margin-right: 22px;
+        }
+        .ant-list-item-meta-title {
+            margin-bottom: 0 !important;
+        }
+        .ant-list-item {
+            padding: 15px;
+            background-color: $color-white;
+        }
+
+        li.ant-list-item {
+            border: #D5D5DA 1px solid;
+        }
+
+        .ant-list-item-extra .ant-tag {
+            padding: 2px 8px;
+            border-radius: 38px;
+            border: none;
+            background-color: #EDEDED;
+        }
+
+        .ant-list-vertical .ant-list-item-action {
+            margin-top: 0 !important;
+        }
+    }
+}
